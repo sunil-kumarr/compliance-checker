@@ -28,4 +28,7 @@ curl --location 'http://127.0.0.1:5000/ai/check-compliance' \
 **Response**
 The API response will contain non-compliance findings in the following JSON format:
 
+
+> The response might change as the model needs to be trained for consistent output.
+
 <img src="/screenshots/postman_output.png"/>
